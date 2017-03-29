@@ -12,7 +12,7 @@ miniGET is a tiny JavaScript library aimed at hiding all that ugly XMLHttpReques
 <script src="miniGET.min.js"></script>
 ```
 * Use it in your own code:
-```
+``` javascript
 var serverURL = "http://www.setgetgo.com/randomword/get.php";
 
 function success(data) {
@@ -23,6 +23,6 @@ miniGET(serverURL, success);
 ```
 
 * You can also provide a fail function that is called when the connection or request fails:
-```
+``` javascript
 miniGET(serverURL, success, fail);
 ```
