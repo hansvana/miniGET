@@ -1,5 +1,5 @@
 (global => {
-  global.miniGET = (url, callback, failed = (t) => {console.error('😣 The connection failed because: '+t)}) => {
+  global.miniGET = (url, callback = ()=>{}, failed = (t) => {console.error('😣 The connection failed because: '+t)}) => {
     if (!url || !success) {
       console.error("😣 Server url or callback function not defined.");
       return;
