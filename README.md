@@ -6,7 +6,7 @@ miniGET is a tiny JavaScript library aimed at hiding all that ugly XMLHttpReques
 
 ## Getting Started
 
-* Download the JavaScript file [here](https://raw.githubusercontent.com/hansvana/miniGET/master/dist/miniGET.min.js) (right-click, save file as...) and save it to your project folder.
+* [http://mouseover.nl/media/download.jpg](https://raw.githubusercontent.com/hansvana/miniGET/master/dist/miniGET.min.js) the JavaScript file (right-click, save file as...) and save it to your project folder.
 * Import it in your HTML file **BEFORE** your own code:
 ```html
 <script src="miniGET.min.js"></script>
